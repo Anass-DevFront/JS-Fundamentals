@@ -10,7 +10,7 @@
 
 // First way: separate variables
 
-let line1 = 'C is fun', line2 = 'Python is cool', line3 = 'JavaScript is amazing';i
+let line1 = 'C is fun', line2 = 'Python is cool', line3 = 'JavaScript is amazing';
 console.log(line1);
 console.log(line2);
 console.log(line3);
