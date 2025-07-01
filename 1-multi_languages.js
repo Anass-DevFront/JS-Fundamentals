@@ -17,13 +17,13 @@ console.log(line3);
 
 // second way : array with direct access
 
-let MyVaribles = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-console.log(MyVaribles[0] + '\n' + MyVaribles[1] + '\n' + MyVaribles[2]);
+let MyVariables = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+console.log(MyVariables[0] + '\n' + MyVariables[1] + '\n' + MyVariables[2]);
 
 // Third way: using a for loop to iterate through the array
 
-for (let i=0; i<myVariables.length; i++){
-console.log(myVariables[i]);
+for (let i=0; i<MyVariables.length; i++){
+console.log(MyVariables[i]);
 }
 
 //fourth way: using forEach with a callback function
@@ -37,6 +37,6 @@ console.log(myVariables[i]);
    because forEach itself doesn't know what to do.
 */
 
-myVariables.forEach(function(item) {
+MyVariables.forEach(function(item) {
   console.log(item);
 });
