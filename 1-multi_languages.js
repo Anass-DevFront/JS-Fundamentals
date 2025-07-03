@@ -19,13 +19,13 @@ console.log(line3);
 
 let MyVariables = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 console.log(MyVariables[0] + '\n' + MyVariables[1] + '\n' + MyVariables[2]);
-
+/*
 // Third way: using a for loop to iterate through the array
 
 for (let i=0; i<MyVariables.length; i++){
 console.log(MyVariables[i]);
 }
-
+*/
 //fourth way: using forEach with a callback function
 
 /*
